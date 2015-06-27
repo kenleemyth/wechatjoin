@@ -1,0 +1,1195 @@
+[ 2014-06-18T09:28:27+08:00 ] 127.0.0.1 /activity/Admin/index.php/Index/index.html
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.132007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134007s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-06-18T09:28:29+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403054909275
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+
+[ 2014-06-18T09:28:31+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403054911377
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+
+[ 2014-06-18T09:29:01+08:00 ] 127.0.0.1 /activity/Admin/index.php/Index/index.html
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-18T09:29:03+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403054943091
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 44 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 45 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-06-18T09:29:06+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/edit/id/11?_=1403054946666
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `liuyan` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: remarks D:\upupw\htdocs\activity\Admin\Runtime\Cache\b5c2c5464dc5441fc059fc9e8c141cad.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2014-06-18T09:33:17+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/edit/id/11?_=1403055197460
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `liuyan` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:33:25+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/update/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: UPDATE `liuyan` SET `liuyan`='aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',`re_c`='fasdfasdfsadfasdf',`status`=1 WHERE ( `id` = 11 ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:33:28+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403055208024
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 44 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 45 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:34:11+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/edit/id/11?_=1403055251741
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `liuyan` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:35:03+08:00 ] 127.0.0.1 /activity/Admin/index.php/Index/index.html
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:35:05+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403055305440
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 44 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 45 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 46 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:35:07+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/forbid/id/11/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: UPDATE `liuyan` SET `status`=0 WHERE ( `id` IN ('11') ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:35:07+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:35:08+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/resume/id/11/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: UPDATE `liuyan` SET `status`=1 WHERE ( `id` IN ('11') ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:35:08+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:35:16+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/edit/id/1?_=1403055316020
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `liuyan` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:35:19+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/update/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: UPDATE `liuyan` SET `liuyan`='asdasd',`re_c`='恩恩tt',`status`=1 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:35:22+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403055321955
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 44 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 45 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 46 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:35:38+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/edit/id/11?_=1403055338644
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `liuyan` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:35:40+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/update/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: UPDATE `liuyan` SET `liuyan`='aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',`re_c`='fasdfasdfsadfasdf',`status`=1 WHERE ( `id` = 11 ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:38:19+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/edit/id/11?_=1403055498917
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `liuyan` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2014-06-18T09:38:36+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/update/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: UPDATE `liuyan` SET `liuyan`='aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',`re_c`='fasdfasdfsadfasdf',`status`=1,`up_time`=1403055516,`re_id`=1 WHERE ( `id` = 11 ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:39:32+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403055572291
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 44 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 45 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 46 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 47 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:42:22+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/add?_=1403055742825
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 25 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 29 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 33 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 37 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:46:41+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/add?_=1403056000970
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `huodong`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 19 行.
+NOTIC: [8] Undefined index: title D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 19 行.
+NOTIC: [8] Undefined index: id D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 19 行.
+NOTIC: [8] Undefined index: title D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 19 行.
+NOTIC: [8] Undefined index: name D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 24 行.
+NOTIC: [8] Undefined index: phone D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 28 行.
+NOTIC: [8] Undefined index: liuyan D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 32 行.
+NOTIC: [8] Undefined index: re_c D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:46:51+08:00 ] 127.0.0.1 /activity/Admin/index.php/Index/index.html
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:46:56+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403056016092
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 44 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 45 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 46 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 47 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:46:57+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/add?_=1403056017262
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `huodong`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 19 行.
+NOTIC: [8] Undefined index: title D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 19 行.
+NOTIC: [8] Undefined index: id D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 19 行.
+NOTIC: [8] Undefined index: title D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 19 行.
+NOTIC: [8] Undefined index: name D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 24 行.
+NOTIC: [8] Undefined index: phone D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 28 行.
+NOTIC: [8] Undefined index: liuyan D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 32 行.
+NOTIC: [8] Undefined index: re_c D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:47:27+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/add?_=1403056047806
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `huodong`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 24 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 28 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 32 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:48:59+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/add?_=1403056139417
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `huodong`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 24 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 28 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 32 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:49:09+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/insert/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: INSERT INTO `liuyan` (`hd_id`,`name`,`phone`,`liuyan`,`re_c`,`status`) VALUES (5,'asdasdasdasd','asdasd','asdasdddddddddddddd','asdasd',1) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:49:16+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403056155914
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 44 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 45 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 46 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 47 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 58 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:56:15+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/edit/id/12?_=1403056575427
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `liuyan` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:56:17+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/update/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: UPDATE `liuyan` SET `name`='asdasdasdasd',`phone`='asdasd',`liuyan`='asdasdddddddddddddd',`re_c`='asdasd',`status`=1,`up_time`=1403056577,`re_id`=1 WHERE ( `id` = 12 ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:56:31+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/add?_=1403056590984
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `huodong`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 24 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 28 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 32 行.
+NOTIC: [8] Undefined variable: vo D:\upupw\htdocs\activity\Admin\Runtime\Cache\eb5f6de8c4c3352684f02dd9c1790290.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:56:38+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/insert/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.078000s ]
+SQL: INSERT INTO `liuyan` (`hd_id`,`name`,`phone`,`liuyan`,`re_c`,`status`,`c_time`,`up_time`,`re_id`) VALUES (1,'admin','15914345140','asdasd','asdasd',1,1403045798,1403056598,1) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:56:56+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/insert/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: INSERT INTO `liuyan` (`hd_id`,`name`,`phone`,`liuyan`,`re_c`,`status`,`c_time`,`up_time`,`re_id`) VALUES (1,'admin','15914345140','asdasd','asdasd',0,1403045816,1403056616,1) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:57:07+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403056627046
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 44 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 45 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 46 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 47 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 58 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:57:09+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/resume/id/14/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: UPDATE `liuyan` SET `status`=1 WHERE ( `id` IN ('14') ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:57:09+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 58 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2014-06-18T09:57:11+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/resume/id/10/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: UPDATE `liuyan` SET `status`=1 WHERE ( `id` IN ('10') ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:57:11+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 58 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:57:12+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/resume/id/9/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: UPDATE `liuyan` SET `status`=1 WHERE ( `id` IN ('9') ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:57:12+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 58 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:57:13+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/resume/id/6/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: UPDATE `liuyan` SET `status`=1 WHERE ( `id` IN ('6') ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:57:13+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 58 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:57:14+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/resume/id/4/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: UPDATE `liuyan` SET `status`=1 WHERE ( `id` IN ('4') ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:57:14+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 58 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T09:57:15+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/resume/id/2/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: UPDATE `liuyan` SET `status`=1 WHERE ( `id` IN ('2') ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T09:57:15+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 58 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T17:50:57+08:00 ] 127.0.0.1 /activity/Admin/index.php/Index/index.html
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T17:50:59+08:00 ] 127.0.0.1 /activity/Admin/index.php/Huodong/index/?_=1403085058881
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.015600s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `huodong` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `huodong` ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\aef406a3fa42528b707935cad8e8a169.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\aef406a3fa42528b707935cad8e8a169.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\aef406a3fa42528b707935cad8e8a169.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\aef406a3fa42528b707935cad8e8a169.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\aef406a3fa42528b707935cad8e8a169.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\aef406a3fa42528b707935cad8e8a169.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\aef406a3fa42528b707935cad8e8a169.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T17:51:03+08:00 ] 127.0.0.1 /activity/Admin/index.php/Huodong
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `huodong` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `huodong` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `huodong` ORDER BY `view` asc LIMIT 0,20   [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T17:55:06+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403085306387
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 44 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 45 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 46 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 47 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-06-18T17:55:10+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/edit/id/1?_=1403085310458
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `liuyan` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-06-18T17:55:28+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/update/navTabId/Liuyan
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.015601s ]
+SQL: UPDATE `liuyan` SET `name`='tiancan',`phone`='15914345140',`liuyan`='大家都来参加吧！！！',`re_c`='多谢你的参与！！',`status`=1,`up_time`=1403085328,`re_id`=1 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rel D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 377 行.
+NOTIC: [8] Undefined index: callbackType D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 378 行.
+NOTIC: [8] Undefined index: forwardUrl D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 379 行.
+NOTIC: [8] Undefined index: confirmMsg D:\upupw\htdocs\activity\ThinkPHP\Lib\Core\Action.class.php 第 380 行.
+
+[ 2014-06-18T17:55:30+08:00 ] 127.0.0.1 /activity/Admin/index.php/Liuyan/index/?_=1403085330560
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of LiuyanAction::_list() should be compatible with that of CommonAction::_list() D:\upupw\htdocs\activity\Admin\Lib\Action\LiuyanAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `liuyan` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `liuyan` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT Liuyan.*,huodong.title FROM `liuyan` LEFT JOIN huodong ON huodong.id = Liuyan.hd_id ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 3 行.
+NOTIC: [8] Undefined index: _sort D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 4 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 40 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 41 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 42 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 43 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 44 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 45 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 46 行.
+NOTIC: [8] Undefined index: _order D:\upupw\htdocs\activity\Admin\Runtime\Cache\dc21392e7602d9b6ad1d37744a806c54.php 第 47 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
